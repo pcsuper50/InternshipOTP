@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Verify_OTP">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify Phone"
+
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:text="Please Enter the OTP send to you"
+        android:textSize="18sp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+       android:id="@+id/textmobile"
+        android:textSize="18sp">
+
+
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/spinnerdesine"
+
+        android:layout_marginTop="30dp"
+
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:background="@drawable/inputdesign"
+            android:id="@+id/input1"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:background="@drawable/inputdesign"
+            android:id="@+id/input2"
+            android:layout_margin="10dp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </EditText>
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/inputdesign"
+            android:id="@+id/input3"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </EditText>
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@drawable/inputdesign"
+            android:id="@+id/input4"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </EditText>
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@drawable/inputdesign"
+            android:id="@+id/input5"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </EditText>
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:background="@drawable/inputdesign"
+            android:id="@+id/input6"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resend"
+        android:text="Resend OTP"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/verify"
+        android:background="@drawable/buttondesign"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text=" VERIFY  AND  CONTINUE">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>
